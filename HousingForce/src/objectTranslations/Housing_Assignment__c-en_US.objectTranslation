@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Housing Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Housing Assignments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Housing Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Housing --></label>
+        <name>Housing__c</name>
+        <relationshipLabel><!-- Housing Assignments --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
