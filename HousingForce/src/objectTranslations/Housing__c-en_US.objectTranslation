@@ -51,4 +51,8 @@
         <name>Max_Occupants__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The number of occupants exceed the limit assigned to this location. --></errorMessage>
+        <name>Maximum_Occupants</name>
+    </validationRules>
 </CustomObjectTranslation>
