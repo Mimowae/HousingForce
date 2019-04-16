@@ -8,14 +8,5 @@
         <plural>true</plural>
         <value>Service Appointments</value>
     </caseValues>
-    <fields>
-        <label><!-- Company Name --></label>
-        <name>Company_Name__c</name>
-    </fields>
-    <fields>
-        <label><!-- Housing --></label>
-        <name>Housing__c</name>
-        <relationshipLabel><!-- Service Appointments --></relationshipLabel>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
