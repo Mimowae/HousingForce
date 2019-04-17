@@ -22,10 +22,6 @@
     </types>
     <types>
         <members>*</members>
-        <name>AppMenu</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ApprovalProcess</name>
     </types>
     <types>
@@ -42,15 +38,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>Community</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>ConnectedApp</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
     </types>
     <types>
         <members>*</members>
@@ -82,40 +70,11 @@
     </types>
     <types>
         <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>DataCategoryGroup</name>
     </types>
     <types>
-        <members>unfiled$public</members>
-        <members>unfiled$public/MarketingProductInquiryResponse</members>
-        <members>unfiled$public/SalesNewCustomerEmail</members>
-        <members>unfiled$public/SupportCaseAssignmentNotification</members>
-        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
-        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
-        <members>unfiled$public/SupportCaseResponse</members>
-        <members>unfiled$public/SupportEscalatedCaseNotification</members>
-        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
-        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
-        <members>unfiled$public/SupportSelfServiceResetPassword</members>
-        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
-        <name>EmailTemplate</name>
-    </types>
-    <types>
-        <members>Case.Standard</members>
-        <name>EscalationRule</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Housing_Force_UtilityBar</members>
         <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
     </types>
     <types>
         <members>*</members>
@@ -173,20 +132,13 @@
     </types>
     <types>
         <members>*</members>
-        <name>SharingSet</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>SiteDotCom</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>StaticResource</name>
     </types>
     <types>
         <members>Housing__c-Housing Layout</members>
         <members>Housing_Assignment__c-Housing Assignment Layout</members>
         <members>Contact-Contact Layout</members>
+        <members>Service_Appointment__c-Service Appointment Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -205,6 +157,32 @@
         <members>ContactRequest</members>
         <members>Case</members>
         <name>Workflow</name>
+    </types>
+    <types>
+        <members>Retention Manager</members>
+        <members>Retention Associate</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Contact</members>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SharingSet</name>
     </types>
     <version>38.0</version>
 </Package>
