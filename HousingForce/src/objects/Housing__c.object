@@ -62,15 +62,23 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Amenity__c</fullName>
+        <fullName>Address__c</fullName>
         <externalId>false</externalId>
-        <label>Amenity</label>
+        <label>Address</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Amenities__c</fullName>
+        <externalId>false</externalId>
+        <label>Amenities</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>MultiselectPicklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -78,11 +86,23 @@
                     <default>false</default>
                 </value>
                 <value>
-                    <fullName>Parking</fullName>
+                    <fullName>Parking_Passes</fullName>
                     <default>false</default>
                 </value>
                 <value>
                     <fullName>Pool</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Parking: Gated</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Parking: Driveway</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Parking: Garage</fullName>
                     <default>false</default>
                 </value>
             </valueSetDefinition>
@@ -139,6 +159,13 @@
     <label>Housing</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Active__c</columns>
+        <columns>Group_Designation__c</columns>
+        <columns>Current_Occupants__c</columns>
+        <columns>Max_Occupants__c</columns>
+        <columns>Address__c</columns>
+        <columns>Amenities__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
