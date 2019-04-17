@@ -146,6 +146,28 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Gender__c</fullName>
+        <externalId>false</externalId>
+        <label>Gender</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -156,6 +178,14 @@
     <fields>
         <fullName>HomePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Housing_Assignment_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Housing Assignment Count</label>
+        <summaryForeignKey>Housing_Assignment__c.Contact__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -308,4 +338,18 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Check_IfActive</fullName>
+        <active>true</active>
+        <description>Throws Error if you  try to use this user when deactivated.</description>
+        <errorConditionFormula>if( Active__c = False &amp;&amp;  Housing_Assignment_Count__c != 0,true,false)</errorConditionFormula>
+        <errorMessage>This Person is deactivated Or is already in housing.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_IfContacthasHousing</fullName>
+        <active>true</active>
+        <description>Check if you have a housing assignment by check the housing assignment count</description>
+        <errorConditionFormula>Housing_Assignment_Count__c &gt; 1</errorConditionFormula>
+        <errorMessage>This person already have a housing unit</errorMessage>
+    </validationRules>
 </CustomObject>

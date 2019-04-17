@@ -150,4 +150,18 @@
     <pluralLabel>Housings</pluralLabel>
     <searchLayouts/>
     <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Check_ActiveCantBeDeactivated</fullName>
+        <active>true</active>
+        <description>If the House has people living there. You cannot deactivate. This Also wont allow you to add in people if it is deactivated.</description>
+        <errorConditionFormula>IF(Active__c = false &amp;&amp;  Current_Occupants__c != 0,true,false)</errorConditionFormula>
+        <errorMessage>You cannot deactivate this housing unit if people are still living there or cant add people if its not activated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Check_ifDeactivatedCantAddTenants</fullName>
+        <active>false</active>
+        <description>This checks if the the active box is deactivated you cant add in new people</description>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorMessage>You cannot add people if the housing is deactivated.</errorMessage>
+    </validationRules>
 </CustomObject>
