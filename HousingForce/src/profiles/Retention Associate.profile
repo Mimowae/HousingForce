@@ -83,6 +83,7 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -934,15 +935,28 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Website</field>
+=======
+        <field>Contact.AccountId</field>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Opportunity.Amount</field>
+=======
+        <field>Contact.AssistantName</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.AssistantPhone</field>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+<<<<<<< HEAD
         <field>Opportunity.CurrentGenerators__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1004,40 +1018,34 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Type</field>
+=======
+        <field>Contact.Birthdate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.CleanStatus</field>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OpportunityLineItem.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OpportunityLineItem.Discount</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OpportunityLineItem.ListPrice</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OpportunityLineItem.ProductCode</field>
+        <field>Contact.Department</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OpportunityLineItem.ServiceDate</field>
+        <field>Contact.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>OpportunityLineItem.Subtotal</field>
+        <field>Contact.DoNotCall</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>OpportunityLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1069,19 +1077,23 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.CustomerAuthorizedDate</field>
+=======
+        <field>Contact.Email</field>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Order.Description</field>
+        <field>Contact.End_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Order.Name</field>
+        <field>Contact.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+<<<<<<< HEAD
         <editable>true</editable>
         <field>Order.OrderReferenceNumber</field>
         <readable>true</readable>
@@ -1125,89 +1137,104 @@
         <editable>false</editable>
         <field>OrderItem.ListPrice</field>
         <readable>true</readable>
+=======
+        <editable>false</editable>
+        <field>Contact.HasOptedOutOfEmail</field>
+        <readable>false</readable>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>OrderItem.ProductCode</field>
+        <field>Contact.HasOptedOutOfFax</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HomePhone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OrderItem.ServiceDate</field>
+        <field>Contact.Jigsaw</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.Description</field>
+        <field>Contact.Languages__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.DisplayUrl</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
+<<<<<<< HEAD
         <field>Product2.ExternalId</field>
+=======
+        <field>Contact.LeadSource</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.Family</field>
+        <field>Contact.Level__c</field>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.ProductCode</field>
+        <field>Contact.MailingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.QuantityUnitOfMeasure</field>
+        <field>Contact.MobilePhone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Product2.StockKeepingUnit</field>
+        <field>Contact.OtherAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Service_Appointment__c.Company_Name__c</field>
+        <field>Contact.OtherPhone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.SourceApp</field>
+        <field>Contact.Phone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Solution.IsPublished</field>
+        <field>Contact.Reason_for_leaving__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Solution.IsPublishedInPublicKb</field>
+        <field>Contact.ReportsToId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Solution.SolutionNote</field>
+        <field>Contact.Title</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Task.ActivityDate</field>
+        <field>Housing_Assignment__c.Move_Out_Date_and_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Task.Description</field>
+        <field>Housing__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Housing__c.Amenities__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+<<<<<<< HEAD
         <field>Task.Type</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1241,35 +1268,18 @@
     <layoutAssignments>
         <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
     </layoutAssignments>
+=======
+        <field>Housing__c.Current_Occupants__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Service_Appointment__c.Company_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContentVersion-Content Version Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contract-Contract Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DandBCompany-D%26B Company Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>EmailMessage-Email Message Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Global-Global Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Goal-Goal Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>GoalLink-Goal Link Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Housing_Assignment__c-Housing Assignment Layout</layout>
@@ -1278,103 +1288,7 @@
         <layout>Housing__c-Housing Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Idea-Idea Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Macro-Macro Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Metric-Metric Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MetricDataLink-Metric Data Link Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItem-Order Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Pricebook2-Price Book Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PricebookEntry-Price Book Entry Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Product2-Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>QuickText-Quick Text Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Scorecard-Scorecard Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Service_Appointment__c-Service Appointment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SocialPersona-Social Persona Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Solution-Solution Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Task-Task Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>User-User Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserProvAccount-User Provisioning Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkCoaching-Coaching Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkFeedback-Feedback Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkFeedbackQuestion-Feedback Question Layout - Winter %2716</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter %2716</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkFeedbackRequest-Feedback Request Layout - Winter %2716</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkFeedbackTemplate-Feedback Template Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -1382,6 +1296,18 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+<<<<<<< HEAD
+=======
+        <object>Contact</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
         <object>Housing_Assignment__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -1403,11 +1329,14 @@
         <object>Service_Appointment__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+<<<<<<< HEAD
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+=======
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
     <tabVisibilities>
         <tab>Housing_Assignment__c</tab>
         <visibility>DefaultOn</visibility>
@@ -1420,6 +1349,13 @@
         <tab>Service_Appointment__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+<<<<<<< HEAD
+=======
+    <tabVisibilities>
+        <tab>standard-Contact</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
