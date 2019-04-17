@@ -88,5 +88,5 @@
     </nameField>
     <pluralLabel>Service Appointments</pluralLabel>
     <searchLayouts/>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

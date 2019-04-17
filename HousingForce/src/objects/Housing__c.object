@@ -149,5 +149,5 @@
     </nameField>
     <pluralLabel>Housings</pluralLabel>
     <searchLayouts/>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
