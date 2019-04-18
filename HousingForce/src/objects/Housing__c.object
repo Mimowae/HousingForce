@@ -150,4 +150,11 @@
     <pluralLabel>Housings</pluralLabel>
     <searchLayouts/>
     <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Maximum_Occupants</fullName>
+        <active>true</active>
+        <description>Number of employees in housing cannot be above the maximum occupant number</description>
+        <errorConditionFormula>IF(Current_Occupants__c  &lt;=  Max_Occupants__c , false, true)</errorConditionFormula>
+        <errorMessage>The number of occupants exceed the limit assigned to this location.</errorMessage>
+    </validationRules>
 </CustomObject>
