@@ -25,9 +25,12 @@ metadataFormatVersion=38.0
 namespacePrefix=
 packageName=unpackaged
 preferToolingDeployment=true
-projectIdentifier=IDE-3157957440110114017
+projectIdentifier=IDE-8278779222898947699
 readTimeout=400
 sessionId=
+<<<<<<< HEAD
+username=demacles0@project22.com
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 username=dlproject2test@revature.com
@@ -37,3 +40,4 @@ username=Charlynns@force.squad
 =======
 username=dlproject2test@revature.com
 >>>>>>> Danny
+>>>>>>> Testing

@@ -35,4 +35,13 @@
         <filterScope>Mine</filterScope>
         <label>My Contact Requests</label>
     </listViews>
+<<<<<<< HEAD
+    <listViews>
+        <fullName>My_ContactRequests</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Contact Requests</label>
+    </listViews>
+    <sharingModel>Private</sharingModel>
+=======
+>>>>>>> Testing
 </CustomObject>

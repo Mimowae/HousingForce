@@ -28,4 +28,19 @@
         <filterScope>Everything</filterScope>
         <label>All Recommendations</label>
     </listViews>
+<<<<<<< HEAD
+    <listViews>
+        <fullName>All_Recommendations</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Recommendations</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+=======
+>>>>>>> Testing
 </CustomObject>
