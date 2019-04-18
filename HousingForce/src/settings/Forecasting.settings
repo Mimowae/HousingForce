@@ -227,6 +227,9 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Danny
             <field>00N2E00000AyPsX</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -244,6 +247,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2E00000AyPsb</field>
+<<<<<<< HEAD
 =======
             <field>00N2E00000AR2UK</field>
             <label>Current Generator(s)</label>
@@ -263,6 +267,8 @@
         <opportunityListFieldsLabelMappings>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -300,11 +306,15 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Danny
             <field>00N2E00000AyPsX</field>
             <field>00N2E00000AyPsY</field>
             <field>00N2E00000AyPsZ</field>
             <field>00N2E00000AyPsa</field>
             <field>00N2E00000AyPsb</field>
+<<<<<<< HEAD
 =======
             <field>00N2E00000AR2UK</field>
             <field>00N2E00000AR2UL</field>
@@ -312,6 +322,8 @@
             <field>00N2E00000AR2UN</field>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -467,6 +479,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field>00N2E00000AyPsX</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -503,6 +516,25 @@
         <opportunityListFieldsLabelMappings>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+            <field>00N2E00000AyPsX</field>
+            <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsY</field>
+            <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsZ</field>
+            <label>Main Competitor(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsa</field>
+            <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsb</field>
+>>>>>>> Danny
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -540,11 +572,15 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Danny
             <field>00N2E00000AyPsX</field>
             <field>00N2E00000AyPsY</field>
             <field>00N2E00000AyPsZ</field>
             <field>00N2E00000AyPsa</field>
             <field>00N2E00000AyPsb</field>
+<<<<<<< HEAD
 =======
             <field>00N2E00000AR2UK</field>
             <field>00N2E00000AR2UL</field>
@@ -552,6 +588,8 @@
             <field>00N2E00000AR2UN</field>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -711,6 +749,9 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Danny
             <field>00N2E00000AyPsX</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -728,6 +769,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2E00000AyPsb</field>
+<<<<<<< HEAD
 =======
             <field>00N2E00000AR2UK</field>
             <label>Current Generator(s)</label>
@@ -747,6 +789,8 @@
         <opportunityListFieldsLabelMappings>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -785,11 +829,15 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Danny
             <field>00N2E00000AyPsX</field>
             <field>00N2E00000AyPsY</field>
             <field>00N2E00000AyPsZ</field>
             <field>00N2E00000AyPsa</field>
             <field>00N2E00000AyPsb</field>
+<<<<<<< HEAD
 =======
             <field>00N2E00000AR2UK</field>
             <field>00N2E00000AR2UL</field>
@@ -797,6 +845,8 @@
             <field>00N2E00000AR2UN</field>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -952,6 +1002,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field>00N2E00000AyPsX</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -988,6 +1039,25 @@
         <opportunityListFieldsLabelMappings>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+            <field>00N2E00000AyPsX</field>
+            <label>Current Generator(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsY</field>
+            <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsZ</field>
+            <label>Main Competitor(s)</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsa</field>
+            <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2E00000AyPsb</field>
+>>>>>>> Danny
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1025,11 +1095,15 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Danny
             <field>00N2E00000AyPsX</field>
             <field>00N2E00000AyPsY</field>
             <field>00N2E00000AyPsZ</field>
             <field>00N2E00000AyPsa</field>
             <field>00N2E00000AyPsb</field>
+<<<<<<< HEAD
 =======
             <field>00N2E00000AR2UK</field>
             <field>00N2E00000AR2UL</field>
@@ -1037,6 +1111,8 @@
             <field>00N2E00000AR2UN</field>
             <field>00N2E00000AR2UO</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>

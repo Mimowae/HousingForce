@@ -10,6 +10,7 @@
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <defaultCaseOwner>dlproject2test@revature.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
     <defaultCaseUser>dlproject2test@revature.com</defaultCaseUser>
@@ -18,6 +19,11 @@
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
     <defaultCaseUser>charlynns@force.squad</defaultCaseUser>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+    <defaultCaseOwner>dlproject2test@revature.com</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>dlproject2test@revature.com</defaultCaseUser>
+>>>>>>> Danny
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>

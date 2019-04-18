@@ -84,6 +84,7 @@
     <fieldPermissions>
         <editable>true</editable>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1080,11 +1081,70 @@
 =======
         <field>Contact.Email</field>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+        <field>Contact.AccountId</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.End_Date__c</field>
+=======
+        <field>Contact.Active__c</field>
+>>>>>>> Danny
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+<<<<<<< HEAD
+        <field>Contact.Fax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+<<<<<<< HEAD
+=======
+        <field>Contact.AssistantName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+>>>>>>> Danny
+        <editable>true</editable>
+        <field>Contact.AssistantPhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Birthdate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+<<<<<<< HEAD
+        <field>Order.ShippingAddress</field>
+=======
+        <field>Contact.Department</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Description</field>
+>>>>>>> Danny
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.DoNotCall</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Email</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1093,48 +1153,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
 <<<<<<< HEAD
-        <editable>true</editable>
-        <field>Order.OrderReferenceNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.PoDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.PoNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.ShippingAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.TotalAmount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderItem.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderItem.EndDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>OrderItem.ListPrice</field>
         <readable>true</readable>
 =======
@@ -1142,11 +1162,16 @@
         <field>Contact.HasOptedOutOfEmail</field>
         <readable>false</readable>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+        <field>Contact.HasOptedOutOfEmail</field>
+        <readable>false</readable>
+>>>>>>> Danny
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfFax</field>
         <readable>false</readable>
+<<<<<<< HEAD
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1180,60 +1205,107 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.MailingAddress</field>
+=======
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HomePhone</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.MobilePhone</field>
+=======
+        <field>Contact.Jigsaw</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.OtherAddress</field>
+=======
+        <field>Contact.Languages__c</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.OtherPhone</field>
+=======
+        <field>Contact.LeadSource</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.Phone</field>
+=======
+        <field>Contact.Level__c</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.Reason_for_leaving__c</field>
+=======
+        <field>Contact.MailingAddress</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.ReportsToId</field>
+=======
+        <field>Contact.MobilePhone</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Contact.Title</field>
+=======
+        <field>Contact.OtherAddress</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Housing_Assignment__c.Move_Out_Date_and_Time__c</field>
+=======
+        <field>Contact.OtherPhone</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Housing__c.Active__c</field>
+=======
+        <field>Contact.Phone</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Housing__c.Amenities__c</field>
+=======
+        <field>Contact.ReportsToId</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <field>Task.Type</field>
         <readable>false</readable>
@@ -1270,10 +1342,14 @@
     </layoutAssignments>
 =======
         <field>Housing__c.Current_Occupants__c</field>
+=======
+        <field>Contact.Revature_Id__c</field>
+>>>>>>> Danny
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Service_Appointment__c.Company_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1290,6 +1366,11 @@
     <layoutAssignments>
         <layout>Service_Appointment__c-Service Appointment Layout</layout>
     </layoutAssignments>
+=======
+        <field>Contact.Title</field>
+        <readable>true</readable>
+    </fieldPermissions>
+>>>>>>> Danny
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1301,6 +1382,7 @@
         <object>Contact</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+<<<<<<< HEAD
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1337,6 +1419,8 @@
     </recordTypeVisibilities>
 =======
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
     <tabVisibilities>
         <tab>Housing_Assignment__c</tab>
         <visibility>DefaultOn</visibility>
@@ -1350,12 +1434,18 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Danny
     <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+<<<<<<< HEAD
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+>>>>>>> Danny
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

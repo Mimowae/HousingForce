@@ -4,6 +4,7 @@
 =======
     <types>
         <members>*</members>
+<<<<<<< HEAD
         <name>ApexClass</name>
     </types>
     <types>
@@ -21,12 +22,16 @@
     <types>
         <members>*</members>
         <name>ApexTrigger</name>
+=======
+        <name>CustomApplication</name>
+>>>>>>> Danny
     </types>
     <types>
         <members>*</members>
         <name>ApprovalProcess</name>
     </types>
     <types>
+<<<<<<< HEAD
         <members>*</members>
         <name>AuraDefinitionBundle</name>
     </types>
@@ -113,24 +118,48 @@
     <types>
         <members>unfiled$public</members>
         <name>Report</name>
+=======
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ReportType</name>
+        <members>Contact</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Retention Associate</members>
+        <members>Retention Manager</members>
+        <name>Profile</name>
     </types>
     <types>
         <members>Retention_Associate</members>
         <members>Retention_Manager</members>
+        <name>Role</name>
+>>>>>>> Danny
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+<<<<<<< HEAD
+        <members>Retention_Associate</members>
+        <members>Retention_Manager</members>
         <members>InstallationRepairServices</members>
         <name>Role</name>
+=======
+        <members>*</members>
+        <name>CustomTab</name>
+>>>>>>> Danny
     </types>
     <types>
         <members>*</members>
-        <name>SamlSsoConfig</name>
+        <name>StaticResource</name>
     </types>
     <types>
         <members>*</members>
-        <name>Scontrol</name>
+        <name>SharingSet</name>
     </types>
     <types>
         <members>*</members>
@@ -168,6 +197,7 @@
     <types>
         <members>Contact</members>
         <members>*</members>
+<<<<<<< HEAD
         <name>CustomObject</name>
     </types>
     <types>
@@ -185,6 +215,17 @@
     <types>
         <members>*</members>
         <name>SharingSet</name>
+=======
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <name>EscalationRule</name>
+>>>>>>> Danny
     </types>
 >>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
     <version>38.0</version>

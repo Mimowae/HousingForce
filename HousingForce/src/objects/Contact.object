@@ -238,12 +238,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+<<<<<<< HEAD
         <fullName>Start_Date__c</fullName>
         <externalId>false</externalId>
         <label>Start Date</label>
         <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
+=======
+        <fullName>Revature_Id__c</fullName>
+        <displayFormat>REV-{00000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Revature Id</label>
+        <type>AutoNumber</type>
+>>>>>>> Danny
     </fields>
     <fields>
         <fullName>Title</fullName>
