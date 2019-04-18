@@ -19,4 +19,8 @@
         <relationshipLabel><!-- Housing Assignments --></relationshipLabel>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- This is wrong gender housing error --></errorMessage>
+        <name>CheckGender</name>
+    </validationRules>
 </CustomObjectTranslation>

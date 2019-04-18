@@ -51,4 +51,12 @@
         <name>Max_Occupants__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot deactivate this housing unit if people are still living there or cant add people if its not activated. --></errorMessage>
+        <name>Check_ActiveCantBeDeactivated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot add people if the housing is deactivated. --></errorMessage>
+        <name>Check_ifDeactivatedCantAddTenants</name>
+    </validationRules>
 </CustomObjectTranslation>
