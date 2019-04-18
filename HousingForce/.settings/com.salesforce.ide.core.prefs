@@ -1,3 +1,19 @@
+ExecuteAnonymousApex_code=Debug
+ExecuteAnonymousApex_profiling=Info
+ExecuteAnonymousCallout=Info
+ExecuteAnonymousDb=Info
+ExecuteAnonymousSystem=Debug
+ExecuteAnonymousValidation=Info
+ExecuteAnonymousVisualforce=Info
+ExecuteAnonymousWorkflow=Info
+RunTestApex_code=Debug
+RunTestApex_profiling=Info
+RunTestCallout=Info
+RunTestDb=Info
+RunTestSystem=Debug
+RunTestValidation=Info
+RunTestVisualforce=Info
+RunTestWorkflow=Info
 eclipse.preferences.version=1
 endpointApiVersion=38.0
 endpointEnvironment=Production/Developer Edition
@@ -9,7 +25,19 @@ metadataFormatVersion=38.0
 namespacePrefix=
 packageName=unpackaged
 preferToolingDeployment=true
-projectIdentifier=IDE-3157957440110114017
+projectIdentifier=IDE-8278779222898947699
 readTimeout=400
 sessionId=
-username=dlproject2@gmail.com
+<<<<<<< HEAD
+username=demacles0@project22.com
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+username=dlproject2test@revature.com
+=======
+username=Charlynns@force.squad
+>>>>>>> 4f6de4f7bfb12be7f25578ada5db46fe10432a51
+=======
+username=dlproject2test@revature.com
+>>>>>>> Danny
+>>>>>>> Testing
