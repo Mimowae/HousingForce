@@ -21,20 +21,12 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>120</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -57,20 +49,12 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -93,20 +77,12 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>240</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -129,20 +105,12 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>480</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -160,20 +128,12 @@
                 <value>Silver</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>720</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -191,20 +151,12 @@
                 <value>Bronze</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -222,20 +174,12 @@
                 <value>Gold,Platinum</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -253,20 +197,12 @@
                 <value>Silver,Bronze</value>
             </criteriaItems>
             <escalationAction>
-<<<<<<< HEAD
-                <assignedTo>charlynns@force.squad</assignedTo>
-=======
                 <assignedTo>dlproject2test@revature.com</assignedTo>
->>>>>>> Danny
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
-<<<<<<< HEAD
-                <notifyTo>charlynns@force.squad</notifyTo>
-=======
                 <notifyTo>dlproject2test@revature.com</notifyTo>
->>>>>>> Danny
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
