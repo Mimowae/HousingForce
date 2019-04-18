@@ -242,6 +242,13 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Revature_Id__c</fullName>
+        <displayFormat>REV-{00000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Revature Id</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

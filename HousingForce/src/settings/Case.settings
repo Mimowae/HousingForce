@@ -9,9 +9,9 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>dlproject2@gmail.com</defaultCaseOwner>
+    <defaultCaseOwner>dlproject2test@revature.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>dlproject2@gmail.com</defaultCaseUser>
+    <defaultCaseUser>dlproject2test@revature.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
