@@ -21,8 +21,5 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
     <tab>standard-Forecasting3</tab>
-    <tab>Housing__c</tab>
-    <tab>Housing_Assignment__c</tab>
-    <tab>Service_Appointment__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>
