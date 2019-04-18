@@ -100,6 +100,7 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1076,291 +1077,154 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Website</field>
+=======
+        <field>Contact.AccountId</field>
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.AccountId</field>
+        <field>Contact.AssistantName</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Amount</field>
+        <field>Contact.AssistantPhone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.CampaignId</field>
+        <field>Contact.Birthdate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Opportunity.ContractId</field>
+        <field>Contact.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Department</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.DoNotCall</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.CurrentGenerators__c</field>
+        <field>Contact.Email</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.DeliveryInstallationStatus__c</field>
+        <field>Contact.End_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.ExpectedRevenue</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.IsPrivate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.LeadSource</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.MainCompetitors__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.NextStep</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.OrderNumber__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.Probability</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.TotalOpportunityQuantity</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.TrackingNumber__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OpportunityLineItem.Description</field>
+        <field>Contact.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>OpportunityLineItem.Discount</field>
+        <field>Contact.HasOptedOutOfEmail</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>OpportunityLineItem.ListPrice</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OpportunityLineItem.ProductCode</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OpportunityLineItem.ServiceDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OpportunityLineItem.Subtotal</field>
+        <field>Contact.HasOptedOutOfFax</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OpportunityLineItem.TotalPrice</field>
+        <field>Contact.HomePhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Languages__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.LeadSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.MailingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.MobilePhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.OtherAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.OtherPhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Reason_for_leaving__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.ReportsToId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Title</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Housing_Assignment__c.Move_Out_Date_and_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Housing__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Housing__c.Amenities__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Order.ActivatedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.ActivatedDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.BillToContactId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.BillingAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.CompanyAuthorizedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.CompanyAuthorizedDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.ContractEndDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.ContractName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.CustomerAuthorizedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.CustomerAuthorizedDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.Name</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.OpportunityId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.OrderReferenceNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.PoDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.PoNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.ShipToContactId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.ShippingAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Order.TotalAmount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Order.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderItem.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderItem.EndDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OrderItem.ListPrice</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>OrderItem.ProductCode</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OrderItem.ServiceDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.DisplayUrl</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.ExternalDataSourceId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.ExternalId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.Family</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.ProductCode</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.QuantityUnitOfMeasure</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Product2.StockKeepingUnit</field>
+        <field>Housing__c.Current_Occupants__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1368,110 +1232,8 @@
         <field>Service_Appointment__c.Company_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.SourceApp</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Solution.IsPublished</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Solution.IsPublishedInPublicKb</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Solution.SolutionNote</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.ActivityDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Task.Type</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.WhatId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.WhoId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Asset-Asset Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AssetRelationship-Asset Relationship Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Campaign-Campaign Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CampaignMember-Campaign Member Page Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Close Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CommunityMemberLayout-Community Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ConsumptionRate-Consumption Rate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContentVersion-Content Version Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contract-Contract Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DandBCompany-D%26B Company Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>EmailMessage-Email Message Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Global-Global Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Goal-Goal Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>GoalLink-Goal Link Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Housing_Assignment__c-Housing Assignment Layout</layout>
@@ -1480,62 +1242,9 @@
         <layout>Housing__c-Housing Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Idea-Idea Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Macro-Macro Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Metric-Metric Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MetricDataLink-Metric Data Link Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItem-Order Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Pricebook2-Price Book Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PricebookEntry-Price Book Entry Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Product2-Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>QuickText-Quick Text Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Scorecard-Scorecard Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Service_Appointment__c-Service Appointment Layout</layout>
     </layoutAssignments>
+<<<<<<< HEAD
     <layoutAssignments>
         <layout>SocialPersona-Social Persona Layout</layout>
     </layoutAssignments>
@@ -1581,6 +1290,8 @@
     <layoutAssignments>
         <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
     </layoutAssignments>
+=======
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1627,6 +1338,7 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+<<<<<<< HEAD
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
@@ -1654,6 +1366,8 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+=======
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2
         <allowCreate>false</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -1672,6 +1386,7 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+<<<<<<< HEAD
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
@@ -1753,6 +1468,8 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+=======
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2
         <allowCreate>false</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -1761,6 +1478,7 @@
         <object>Service_Appointment__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+<<<<<<< HEAD
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1788,6 +1506,8 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+=======
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2
     <tabVisibilities>
         <tab>Housing_Assignment__c</tab>
         <visibility>DefaultOn</visibility>
@@ -1801,116 +1521,8 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Account</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Asset</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Campaign</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Case</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-CollaborationGroup</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ConsumptionSchedule</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ContactRequest</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Contract</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DandBCompany</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DuplicateRecordSet</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Event</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Idea</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Image</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Lead</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Macro</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Opportunity</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Order</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Pricebook2</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Product2</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-QuickText</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Recommendation</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Scorecard</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-SocialPersona</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Solution</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-StreamingChannel</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Task</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-UserProvisioningRequest</tab>
-        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>

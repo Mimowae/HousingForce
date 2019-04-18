@@ -1,3 +1,19 @@
+ExecuteAnonymousApex_code=Debug
+ExecuteAnonymousApex_profiling=Info
+ExecuteAnonymousCallout=Info
+ExecuteAnonymousDb=Info
+ExecuteAnonymousSystem=Debug
+ExecuteAnonymousValidation=Info
+ExecuteAnonymousVisualforce=Info
+ExecuteAnonymousWorkflow=Info
+RunTestApex_code=Debug
+RunTestApex_profiling=Info
+RunTestCallout=Info
+RunTestDb=Info
+RunTestSystem=Debug
+RunTestValidation=Info
+RunTestVisualforce=Info
+RunTestWorkflow=Info
 eclipse.preferences.version=1
 endpointApiVersion=38.0
 endpointEnvironment=Production/Developer Edition
@@ -12,4 +28,8 @@ preferToolingDeployment=true
 projectIdentifier=IDE-8278779222898947699
 readTimeout=400
 sessionId=
+<<<<<<< HEAD
 username=demacles0@project22.com
+=======
+username=Charlynns@force.squad
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2

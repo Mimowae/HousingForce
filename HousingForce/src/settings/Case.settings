@@ -9,9 +9,15 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
+<<<<<<< HEAD
     <defaultCaseOwner>demacles0@project22.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
     <defaultCaseUser>demacles0@project22.com</defaultCaseUser>
+=======
+    <defaultCaseOwner>charlynns@force.squad</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>charlynns@force.squad</defaultCaseUser>
+>>>>>>> d2bef74de79ea18ad8e3dc96da69e44bf17cc1b2
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
