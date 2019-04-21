@@ -372,10 +372,9 @@
         <columns>CONTACT.PHONE1</columns>
         <columns>CONTACT.EMAIL</columns>
         <columns>CONTACT.BIRTHDATE</columns>
+        <columns>Housing_Status__c</columns>
         <columns>Employee_Status__c</columns>
         <columns>Start_Date__c</columns>
-        <columns>End_Date__c</columns>
-        <columns>Reason_for_leaving__c</columns>
         <filterScope>Everything</filterScope>
         <label>All Contacts</label>
     </listViews>
@@ -439,16 +438,16 @@
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>Check_IfActive</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Throws Error if you  try to use this user when deactivated.</description>
-        <errorConditionFormula>if( Active__c = False &amp;&amp;  Housing_Assignment_Count__c != 0,true,false)</errorConditionFormula>
+        <errorConditionFormula>if( TEXT(Employee_Status__c)= &quot;New Hire&quot;,true,false)</errorConditionFormula>
         <errorMessage>This Person is deactivated Or is already in housing.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Check_IfContacthasHousing</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Check if you have a housing assignment by check the housing assignment count</description>
-        <errorConditionFormula>Housing_Assignment_Count__c &gt; 1</errorConditionFormula>
+        <errorConditionFormula>true</errorConditionFormula>
         <errorMessage>This person already have a housing unit</errorMessage>
     </validationRules>
 </CustomObject>

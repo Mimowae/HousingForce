@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
@@ -42,6 +42,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>CustomApplicationComponent</name>
     </types>
     <types>
@@ -51,6 +55,11 @@
     <types>
         <members>*</members>
         <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Contact</members>
+        <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>
@@ -67,6 +76,10 @@
     <types>
         <members>*</members>
         <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>*</members>
@@ -89,6 +102,13 @@
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>Contact-Contact Layout</members>
+        <members>Housing_Assignment__c-Housing Assignment Layout</members>
+        <members>Housing__c-Housing Layout</members>
+        <members>Service_Appointment__c-Service Appointment Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>*</members>
         <name>Letterhead</name>
     </types>
@@ -101,12 +121,13 @@
         <name>PostTemplate</name>
     </types>
     <types>
-        <members>*</members>
-        <name>Queue</name>
+        <members>Retention Associate</members>
+        <members>Retention Manager</members>
+        <name>Profile</name>
     </types>
     <types>
-        <members>ApexDevNet</members>
-        <name>RemoteSiteSetting</name>
+        <members>*</members>
+        <name>Queue</name>
     </types>
     <types>
         <members>unfiled$public</members>
@@ -119,7 +140,6 @@
     <types>
         <members>Retention_Associate</members>
         <members>Retention_Manager</members>
-        <members>InstallationRepairServices</members>
         <name>Role</name>
     </types>
     <types>
@@ -132,14 +152,24 @@
     </types>
     <types>
         <members>*</members>
+        <name>SharingSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>StaticResource</name>
     </types>
     <types>
-        <members>Housing__c-Housing Layout</members>
-        <members>Housing_Assignment__c-Housing Assignment Layout</members>
-        <members>Contact-Contact Layout</members>
-        <members>Service_Appointment__c-Service Appointment Layout</members>
-        <name>Layout</name>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>ContactRequest</members>
+        <members>Housing_Assignment__c</members>
+        <members>Housing__c</members>
+        <members>Service_Appointment__c</members>
+        <name>Workflow</name>
     </types>
     <types>
         <members>Address</members>
@@ -148,41 +178,6 @@
         <members>Name</members>
         <members>Security</members>
         <name>Settings</name>
-    </types>
-    <types>
-        <members>Housing__c</members>
-        <members>Housing_Assignment__c</members>
-        <members>Service_Appointment__c</members>
-        <members>Contact</members>
-        <members>ContactRequest</members>
-        <members>Case</members>
-        <name>Workflow</name>
-    </types>
-    <types>
-        <members>Retention Manager</members>
-        <members>Retention Associate</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Contact</members>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>SiteDotCom</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>SharingSet</name>
     </types>
     <version>38.0</version>
 </Package>

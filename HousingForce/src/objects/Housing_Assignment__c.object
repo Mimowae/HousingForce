@@ -100,24 +100,27 @@
     <label>Housing Assignment</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Housing__c</columns>
+        <columns>Contact__c</columns>
+        <columns>Arrival_Date_and_Time__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
+        <displayFormat>HA{00000000}</displayFormat>
         <label>Housing Assignment Name</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Housing Assignments</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>CheckGender</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>Checks if this persons gender is correct for the right housing i.e male = male or female = female</description>
-        <errorConditionFormula>IF( OR((TEXT(Contact__r.Gender__c) = &apos;Male&apos; &amp;&amp;  TEXT(Housing__r.Group_Designation__c)  = &apos;Men only&apos;),
-(TEXT(Contact__r.Gender__c) = &apos;Female&apos; &amp;&amp;  TEXT(Housing__r.Group_Designation__c)  = &apos;Women only&apos;)
-),False,TRUE)</errorConditionFormula>
+        <errorConditionFormula>True</errorConditionFormula>
         <errorDisplayField>Contact__c</errorDisplayField>
         <errorMessage>This is wrong gender housing error</errorMessage>
     </validationRules>

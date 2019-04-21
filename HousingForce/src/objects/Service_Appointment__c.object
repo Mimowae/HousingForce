@@ -99,6 +99,7 @@
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
+        <columns>Company_Name__c</columns>
         <columns>Housing__c</columns>
         <columns>Date__c</columns>
         <columns>Time__c</columns>
